@@ -1,0 +1,175 @@
+
+html {
+  font-size: 16px;
+}
+
+  body {
+  font-family: "Montserrat", sans-serif;
+  color: #454545;
+  font-size: 1em;
+  margin: 0px;
+  padding: 0px;
+  background-color: #f8f8f8;
+  background-image: url('bkgd2.png');
+}
+
+img {
+  width: 100%;
+}
+
+.page {
+  display: flex;
+  flex-flow: column wrap;
+  justify-content: center;
+  align-items: center;
+  align-content: center;
+  margin: 0 auto;
+}
+
+.content-wrapper {
+  display: flex;
+  justify-content: center;
+  width: 90%;
+}
+
+header {
+  padding-top: 0.25em;
+  text-align: center;
+}
+
+h1 {
+  align-self: center;
+}
+
+header span {
+  font-size: 60px;
+  color: #f16059;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-family: "Montserrat", sans-serif;
+}
+
+.ball {
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  align-content: center;
+  align-self: center;
+  margin: 0;
+}
+
+figure {
+  margin: 0;
+}
+
+.answer {
+  position: absolute;
+  top: 35%;
+  left: 45%;
+  width: 14%;
+  font: 0.7em 'Open Sans', Helvetica, Arial, sans-serif;
+  color: #222;
+  text-transform: uppercase;
+  z-index: 1;
+  }
+
+.button {
+  display: flex;
+  justify-content: center;
+  margin: 0 auto;
+  width: 60%;
+}
+
+#questionButton {
+  font: 1.625em 'Montserrat', Helvetica, Arial, sans-serif;
+  border-radius: 5px;
+  border: none;
+  color: #f8f8f8;
+  background-color: #f16059;
+  padding: 10px 75px;
+  display: block;
+  margin: 0 auto;
+}
+
+footer p {
+  font-family: "Montserrat", sans-serif;
+  text-align: center;
+  text-transform: uppercase;
+  font-size: 0.75em;
+}
+
+@media only screen and (min-width: 320px) {
+
+  .answer {
+    position: absolute;
+    top: 35%;
+    left: 45%;
+    width: 14%;
+    font: 0.6em 'Open Sans', Helvetica, Arial, sans-serif;
+    }
+
+}
+
+@media only screen and (min-width: 414px) {
+
+  .answer {
+    position: absolute;
+    top: 35%;
+    left: 45%;
+    width: 14%;
+    font: 0.7em 'Open Sans', Helvetica, Arial, sans-serif;
+    }
+}
+
+@media only screen and (min-width: 768px) {
+
+  .page {
+    max-width: 690px;
+  }
+
+  .answer {
+    position: absolute;
+    font-size: 0.9em;
+    top:35%;
+    left:45%;
+  }
+}
+
+@media only screen and (min-width: 1024px) {
+
+  .page {
+    max-width: 920px;
+  }
+
+  figure {
+    margin: 0;
+  }
+
+  .answer {
+    position: absolute;
+    font-size: 1em;
+    top:35%;
+    left:45%;
+  }
+  .button {
+    width: 80%;
+  }
+
+}
+
+@media only screen and (min-width: 1200px) {
+
+  .page {
+    max-width: 980px;
+  }
+
+  .answer {
+    position: absolute;
+    font-size: 1em;
+    top:35%;
+    left:45%;
+  }
+  
+}
